@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('items/', include('item.urls')),
     path('inbox/', include('conversation.urls')),
+    path('dashboard/',include('dashboard.urls')),
 ]
