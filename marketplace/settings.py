@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'core',
     'item',
     'conversation',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
